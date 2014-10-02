@@ -1,0 +1,23 @@
+AlignParameters:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+ClassLength:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+LineLength:
+  Max: 120
+
+HashSyntax:
+  EnforcedStyle: ruby19
+
+Documentation:
+  Enabled: false
+
+CyclomaticComplexity:
+  Max: 12

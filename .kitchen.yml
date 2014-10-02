@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: custom-oraclelinux6.4
+    driver_config:
+      box: "oraclelinux64-ice"
+
+suites:
+  - name: default
+    run_list:
+      - recipe[lsyncd::default]
+    attributes:
